@@ -1,0 +1,44 @@
+.sushis-main {
+    min-height: 70vh;
+    width: 100vw;
+    display: flex;
+}
+.manekimage {
+    width: 70%;
+}
+.sushi-cards-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.sushi-card {
+   width: 28%;
+   background-color: beige;
+   padding: 1% 2%;
+   margin: 2% 0;
+   
+}
+.sushi-card-content{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.pastille-promo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: darkred;
+    color : white;
+    position: absolute;
+    top : 2px;
+    right : 2px;
+}
+.promo {
+    text-decoration :line-through;
+    text-decoration-color: darkred;
+    margin-right: 3%;
+}
